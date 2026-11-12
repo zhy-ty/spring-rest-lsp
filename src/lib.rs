@@ -9,7 +9,7 @@ use zed::{
 };
 
 /// 发布 LSP 二进制的 GitHub 仓库（<owner>/<repo>）。发布前请改成你自己的仓库。
-const REPO: &str = "zhy-ty/zed-rest-nav";
+const REPO: &str = "zhy-ty/spring-rest-lsp";
 
 struct RestNavExtension;
 

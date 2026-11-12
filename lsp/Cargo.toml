@@ -19,3 +19,6 @@ url = "2"
 opt-level = 2
 lto = true
 strip = true
+
+# 独立 workspace：与根扩展 crate 分离（根是 wasm cdylib，lsp 是原生二进制）
+[workspace]

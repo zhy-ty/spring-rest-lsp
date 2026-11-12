@@ -497,6 +497,13 @@ dependencies = [
 ]
 
 [[package]]
+name = "spring-rest-lsp"
+version = "0.1.0"
+dependencies = [
+ "zed_extension_api",
+]
+
+[[package]]
 name = "stable_deref_trait"
 version = "1.2.1"
 source = "registry+https://github.com/rust-lang/crates.io-index"
@@ -758,13 +765,6 @@ dependencies = [
  "quote",
  "syn 3.0.10",
  "synstructure",
-]
-
-[[package]]
-name = "zed-rest-nav"
-version = "0.1.0"
-dependencies = [
- "zed_extension_api",
 ]
 
 [[package]]

@@ -1,11 +1,11 @@
-id = "rest-nav"
-name = "REST Nav"
+id = "spring-rest-lsp"
+name = "Spring REST LSP"
 version = "0.1.0"
 schema_version = 1
 authors = ["zhy-ty"]
 description = "Search Spring MVC REST endpoints by URL path and jump to the controller via project symbols (Ctrl-T)."
-repository = "https://github.com/zhy-ty/zed-rest-nav"
+repository = "https://github.com/zhy-ty/spring-rest-lsp"
 
-[language_servers.rest-nav]
-name = "REST Nav"
+[language_servers.spring-rest-lsp]
+name = "Spring REST LSP"
 languages = ["Java"]
