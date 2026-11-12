@@ -1,6 +1,6 @@
 id = "spring-rest-lsp"
 name = "Spring REST LSP"
-version = "0.1.0"
+version = "0.1.1"
 schema_version = 1
 authors = ["zhy-ty"]
 description = "Search Spring MVC REST endpoints by URL path and jump to the controller via project symbols (Ctrl-T)."

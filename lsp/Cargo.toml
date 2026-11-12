@@ -1,6 +1,6 @@
 [package]
 name = "rest-nav-lsp"
-version = "0.1.0"
+version = "0.1.1"
 edition = "2021"
 description = "Spring MVC REST endpoint language server (workspace symbols) for Zed"
 license = "MIT"

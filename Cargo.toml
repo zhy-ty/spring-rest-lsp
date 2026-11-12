@@ -1,6 +1,6 @@
 [package]
 name = "spring-rest-lsp"
-version = "0.1.0"
+version = "0.1.1"
 edition = "2021"
 license = "MIT"
 description = "Zed extension: Spring MVC REST endpoint navigation via workspace symbols"
