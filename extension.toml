@@ -1,0 +1,11 @@
+id = "rest-nav"
+name = "REST Nav"
+version = "0.1.0"
+schema_version = 1
+authors = ["zhy-ty"]
+description = "Search Spring MVC REST endpoints by URL path and jump to the controller via project symbols (Ctrl-T)."
+repository = "https://github.com/zhy-ty/zed-rest-nav"
+
+[language_servers.rest-nav]
+name = "REST Nav"
+languages = ["Java"]

@@ -1,0 +1,15 @@
+[package]
+name = "zed-rest-nav"
+version = "0.1.0"
+edition = "2021"
+license = "MIT"
+description = "Zed extension: Spring MVC REST endpoint navigation via workspace symbols"
+
+[lib]
+crate-type = ["cdylib"]
+
+[dependencies]
+zed_extension_api = "0.7.0"
+
+# 独立 workspace，避免把 lsp/ 原生二进制 crate 当成成员（它不能用 wasm 目标编译）
+[workspace]

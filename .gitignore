@@ -1,0 +1,6 @@
+/target
+/lsp/target
+extension.wasm
+rest-nav-lsp-dev
+rest-nav-lsp-dev.exe
+*.gz
